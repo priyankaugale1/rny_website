@@ -9,7 +9,7 @@ const Navbar = () => {
   const navItems = ['Home', 'About', 'Projects', 'Contact'];
 
   return (
-    <header className="navbar">
+    <header className="navbar"> 
       <div className="navbar__logo">
         <img src={logo} alt="Logo" className="navbar__logo-img" />
       </div>
