@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+
+.hero {
+  background-color: #00010A;
+  color: white;
+  padding: 80px 24px;
+  text-align: center;
+  font-family: 'Syne', sans-serif;
+}
+
+.hero-heading h1 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+}
+
+.circle-image {
+  display: inline-block;
+  height: 48px;
+  width: auto;
+  vertical-align: middle;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.circle-image img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  display: block;
+}
+
+
+.hero-description {
+  color: #bcbcbc;
+  max-width: 800px;
+  margin: 40px auto 0;
+  line-height: 1.8;
+  font-size: 1rem;
+  padding: 0 12px;
+}
+
+.portfolio-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.portfolio-content {
+  width: 81%;
+  margin: 80px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.portfolio-logos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.logo-image {
+  height: 27px;
+  object-fit: contain;
+}
+
+.portfolio-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 500px;
+  color:#CBCBCB;
+;
+}
+
+@media (min-width: 768px) {
+  .portfolio-text {
+    text-align: start;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-heading h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero-heading h1 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-heading h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .hero-description {
+    font-size: 0.9rem;
+  }
+
+  .logo-image {
+    height: 17px;
+    object-fit: contain;
+}
+.portfolio-container{
+    padding: 10px;
+}
+.portfolio-logos {
+  display: flex;
+  gap: 20px;
+}
+}

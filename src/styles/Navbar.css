@@ -1,0 +1,146 @@
+
+.navbar {
+  width: 81%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #02030a;
+  padding: 1.5rem 2rem;
+  color: white;
+  position: relative;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar__logo-img {
+  width: 46px;
+  height: 32px;
+}
+
+.navbar__logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.navbar__link {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: white;
+  width: 78%;
+}
+
+.navbar__link.active {
+  background-color: white;
+  color: black;
+  width: 78%;
+}
+
+.navbar__hire {
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.navbar__hire:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar__menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  z-index: 1001;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar__menu-icon {
+    display: block;
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+  }
+
+  .navbar__links {
+    display: none;
+    flex-direction: column;
+    width: 32%;
+    background-color: #02030a;
+    z-index: 999;
+    position: absolute;
+    top: 100%;
+    right: 0rem;
+    padding: 2px 30px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .navbar__links.open {
+    display: flex;
+  }
+
+  .navbar__link {
+    padding: 1rem 2rem;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .mobile-only {
+    display: block;
+    margin: 1rem auto;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .navbar__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 998;
+  }
+
+  .navbar__links {
+    z-index: 999;
+  }
+
+}

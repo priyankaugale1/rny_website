@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.expertise-container {
+  background-color: #00010A;
+  color: white;
+  padding: 4px 20px;
+}
+
+.expertise-content {
+  width: 81%;
+  margin: 0 auto;
+}
+
+.expertise-heading {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-family: 'syne', sans-serif;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.expertise-box {
+  max-width: 600px;
+}
+
+.expertise-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-family: 'syncopate', sans-serif;
+}
+
+.expertise-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color:#CBCBCB;
+;
+}
+
+@media (min-width: 768px) {
+  .expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 60px;
+  }
+}

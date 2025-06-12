@@ -1,0 +1,39 @@
+.faq-section {
+  background-color: #05050a;
+  color: white;
+  padding: 4rem 1rem;
+}
+
+.faq-container {
+  width: 81%;
+  margin: 0 auto;
+}
+
+.faq-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  font-family: 'syne',sans-serif;
+}
+
+.arrow-btn:first-child {
+  background: #CBCBCB;
+}
+
+
+
+.faq-item {
+  margin-bottom: 2rem;
+}
+
+.faq-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: #cfcfcf;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+}
