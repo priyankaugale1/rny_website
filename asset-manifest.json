@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rnywebsite/static/css/main.7f881686.css",
+    "main.js": "/rnywebsite/static/js/main.9844e900.js",
+    "static/js/453.67cfc730.chunk.js": "/rnywebsite/static/js/453.67cfc730.chunk.js",
+    "static/media/fortknox.svg": "/rnywebsite/static/media/fortknox.dd5652fdfcc75ef6571e0ff60213fe8a.svg",
+    "static/media/envelope.svg": "/rnywebsite/static/media/envelope.ea70ab67f59fde2accf631f9d3d5d8f5.svg",
+    "static/media/zenocide.svg": "/rnywebsite/static/media/zenocide.f5cf91aab0e2e391767a35174f763d4b.svg",
+    "static/media/protfolioImage.svg": "/rnywebsite/static/media/protfolioImage.2d62fef6700661e9373e421d28af8b5f.svg",
+    "static/media/profileImage.svg": "/rnywebsite/static/media/profileImage.eee60307d1545b8b0f7c7e2a4fa12e0b.svg",
+    "static/media/user.svg": "/rnywebsite/static/media/user.dd55471b10f859a1fed57d048f02e389.svg",
+    "static/media/marquee.svg": "/rnywebsite/static/media/marquee.d28f35e4187593342e23dd1e9986faee.svg",
+    "static/media/doradesign.svg": "/rnywebsite/static/media/doradesign.034c74c80d4766030a6715d95b369f01.svg",
+    "static/media/wave.svg": "/rnywebsite/static/media/wave.a5ec2d8d98371647ad32ef977b172b6c.svg",
+    "static/media/silsila.svg": "/rnywebsite/static/media/silsila.674f06201c6ad88e818ff3a9ebbe0a55.svg",
+    "static/media/quoteIcon.svg": "/rnywebsite/static/media/quoteIcon.6e436369b977155fac3980c0dfcb00b6.svg",
+    "index.html": "/rnywebsite/index.html",
+    "static/media/logo.svg": "/rnywebsite/static/media/logo.590bdec6e2cb686edf5846789eac1d44.svg",
+    "main.7f881686.css.map": "/rnywebsite/static/css/main.7f881686.css.map",
+    "main.9844e900.js.map": "/rnywebsite/static/js/main.9844e900.js.map",
+    "453.67cfc730.chunk.js.map": "/rnywebsite/static/js/453.67cfc730.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f881686.css",
+    "static/js/main.9844e900.js"
+  ]
+}
